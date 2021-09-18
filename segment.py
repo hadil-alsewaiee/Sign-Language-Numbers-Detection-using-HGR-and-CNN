@@ -160,14 +160,7 @@ if __name__ == "__main__":
 
                     cv2.imshow("Thesholded Hand Image", thresholded)
 
-                    #thresholded = cv2.resize(thresholded, (64, 64))
-                    #thresholded = cv2.cvtColor(thresholded, cv2.COLOR_GRAY2RGB)
-                    #thresholded = np.reshape(thresholded, (1, thresholded.shape[0], thresholded.shape[1], 3))
-
-                    #cv2.imshow("Thresholded Hand", thresholded)
-                    # cv2.imwrite(r"D:\\gesture\\train\\"+str(element)+"\\" + str(num_imgs_taken+300) + '.jpg', thresholded)
-                     #cv2.imwrite(r"C:\\Users\\HadilAbdulhakim\\PycharmProjects\\Hand Tracking\\code\\gesture\\train\\11\\" + "\\" + str(
-                      #      num_imgs_taken) + '.jpg', thresholded)
+                    
                 else:
                     break
                 num_imgs_taken += 1
